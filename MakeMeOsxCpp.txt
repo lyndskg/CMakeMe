@@ -1,4 +1,4 @@
-# Set the minimum macOS version required
+# Set the minimum required version of CMake for the project.
 # @input = VERSION <version>
 cmake_minimum_required(VERSION 3.25)
 
