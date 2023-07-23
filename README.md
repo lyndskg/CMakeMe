@@ -1,0 +1,2 @@
+# CMakeMe
+Template for CMake
