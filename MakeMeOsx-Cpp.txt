@@ -9,8 +9,9 @@ set(CMAKE_CXX_STANDARD 20)
 # Set additional compiler flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wconversion -Wall -Werror -Wextra -pedantic")
 
-# Set the arm64 architecture as the target
-set(CMAKE_OSX_ARCHITECTURES arm64)
+# Set the target architecture(s) for macOS, thereby
+# controlling which architectures are built and supported in your project.
+set(CMAKE_OSX_ARCHITECTURES <osx_arch>)
 
 # Add your main executable sources to the target (e.g., "bs" in this case)
 add_executable(bs main.cpp Program.cpp inputReader.cpp blackScholesModel.cpp)
