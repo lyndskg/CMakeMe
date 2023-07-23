@@ -1,4 +1,5 @@
 # Set the minimum macOS version required
+# @input = VERSION <version>
 cmake_minimum_required(VERSION 3.25)
 
 # Set your project name and C++ standard
